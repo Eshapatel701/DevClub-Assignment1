@@ -1,17 +1,22 @@
 
-
+body{
+  background-image: linear-gradient( #4C0027, #4c0027ef , #4c0027c0,#4c002796,#4c00278e);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 #navbar {
  
-  background: #4C0027;
+  background-color: #4C0027;
   width: 100%;
   top:0;
+  
  }
+ 
  #home {
   position: relative;
   width: 100%;
   left: 0px;
   top: 50px;
-  background: #ffffff7c;
   }
   #tips{
     position:relative;
@@ -26,17 +31,16 @@
   #faqs{
     position:relative;
     text-align: center;
-    top:1500px;
+    top:1600px;
   }
   #youtube{
     position:relative;
     text-align: center;
-    top:2350px;
+    top:2600px;
   }
    
  a{
   padding: 15px;
-  font-family: 'Montserrat', sans-serif;
   font-size: 60px;
   text-align: center;
   color: #ffffff;
@@ -70,7 +74,7 @@ ul li{
     line-height: 59px;
     margin-right: 500px;
     margin-left: 24px;
-    color: #1f012b;
+    color: #d498cc;
     
   }
   #b {
@@ -82,7 +86,7 @@ ul li{
     margin-right: 500px;
     margin-left: 24px;
     
-    color: #0f0127;
+    color: #d498c5;
     
  }
  #virus {
@@ -92,11 +96,11 @@ ul li{
   left: 927px;
 } 
 .heading {
-  font-family: Monsterrat;
+  font-family: 'Playfair Display', serif;;
   font-style: normal;
   font-weight: 500;
   font-size: 100px;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
 
 } 
@@ -107,10 +111,11 @@ height: 369px;
 left:50%;
 -ms-transform: translateX(-50%);
 transform: translateX(-50%);
-background: #ffffff7c;
-border: 1px solid #974974;
+background: #ffffff;
+border: 5px solid #E8AFCE;
 box-sizing: border-box;
-border-radius: 5px;
+border-radius: 50px;
+box-shadow: 0 -30px 50px #777 inset;
 }
 #facemask{
   position: absolute;
@@ -121,16 +126,14 @@ border-radius: 5px;
   }
   #wearmask {
     
-    right: 5px;
+    right: 35px;
     width: 317px;
     height: 66px;
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 54px;
     line-height: 66px;
     color: #000000;
@@ -144,23 +147,21 @@ left: 50%;
 -ms-transform: translateX(-50%);
 transform: translateX(-50%);
 top: 600px;
-background: #ffffff7c;
-border: 1px solid #E8AFCE;
+background: #ffffff;
+border: 5px solid #E8AFCE;
 box-sizing: border-box;
-border-radius: 5px;
+border-radius: 50px;
+box-shadow: 0 -30px 50px #777 inset;
 }
 #washhands{
   position:absolute;
   width: 346px;
   height: 66px;
-  left: 5px;
+  left: 35px;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 54px;
   line-height: 66px;
   color: #000000;
@@ -175,13 +176,13 @@ border-radius: 5px;
   #table2 {
     
     position:absolute;
-    width: 951px;
+    width: 1200px;
     height: 454px;
     left: 50%;
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     background: #FFFFFF;
-    border: 8px solid #750550;
+    border: 8px solid #4C0027;
     box-sizing: border-box;
   }
   #box3 {
@@ -192,17 +193,20 @@ border-radius: 5px;
     left: 50%;
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
-    background: #ffffff7c;
-    border: 1px solid #E8AFCE;
+    background: #ffffff;
+    border: 5px solid #E8AFCE;
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 50px;
     text-align: center;
     font-size:25px;
+    font-family: 'Nanum Myeongjo', serif;
+    padding: 50px;
+    box-shadow: 0 -30px 50px #777 inset;
    }
   .footer
   {
     position:relative;
-    top: 2400px;
+    top: 2700px;
     text-align: center;
     font-size: 50px;
     color: #ffffff;
@@ -215,7 +219,16 @@ border-radius: 5px;
   }
    td {
     padding: 15px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 30px;
     text-align: center;
+    border: 3px solid #4C0027;
+ }
+ th {
+  padding: 15px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 1000;
+  border: 3px solid #4C0027;
  }
