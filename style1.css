@@ -1,4 +1,5 @@
 
+
 #navbar {
  
   background: #4C0027;
@@ -6,30 +7,31 @@
   top:0;
  }
  #home {
-  position:relative;
+  position: relative;
   width: 100%;
-  height: 1000px;
   left: 0px;
   top: 50px;
-  
-  
   background: #ffffff7c;
   }
   #tips{
     position:relative;
+    top: 300px;
     text-align: center;
   }
   #symptoms{
     position:relative;
+    top: 1100px;
     text-align: center;
   }
   #faqs{
     position:relative;
     text-align: center;
+    top:1500px;
   }
   #youtube{
     position:relative;
     text-align: center;
+    top:2350px;
   }
    
  a{
@@ -84,11 +86,10 @@ ul li{
     
  }
  #virus {
-  
+  position: absolute;
   width: 500px;
   height: 500px;
   left: 927px;
-  top: 512px;
 } 
 .heading {
   font-family: Monsterrat;
@@ -100,19 +101,19 @@ ul li{
 
 } 
 #box1 {
-  
+position: absolute; 
 width: 1293px;
 height: 369px;
-left: 74px;
-
-
+left:50%;
+-ms-transform: translateX(-50%);
+transform: translateX(-50%);
 background: #ffffff7c;
 border: 1px solid #974974;
 box-sizing: border-box;
 border-radius: 5px;
 }
 #facemask{
-  
+  position: absolute;
   width: 346px;
   height: 346px;
   left: 129px;
@@ -120,12 +121,13 @@ border-radius: 5px;
   }
   #wearmask {
     
-    
+    right: 5px;
     width: 317px;
     height: 66px;
-    left: 873px;
-    
-    
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -135,22 +137,26 @@ border-radius: 5px;
     }
 #box2 {
   
+position:absolute;
 width: 1293px;
 height: 369px;
-left: 74px;
-top:auto;
-
+left: 50%;
+-ms-transform: translateX(-50%);
+transform: translateX(-50%);
+top: 600px;
 background: #ffffff7c;
 border: 1px solid #E8AFCE;
 box-sizing: border-box;
 border-radius: 5px;
 }
 #washhands{
-  
+  position:absolute;
   width: 346px;
   height: 66px;
-  left: 160px;
-  
+  left: 5px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   
   font-family: Montserrat;
   font-style: normal;
@@ -160,7 +166,7 @@ border-radius: 5px;
   color: #000000;
   }
   #handwashing {
-    
+    position:absolute;
     width: 342px;
     height: 342px;
     left: 873px;
@@ -168,21 +174,24 @@ border-radius: 5px;
   }
   #table2 {
     
+    position:absolute;
     width: 951px;
     height: 454px;
-    left: 244px;
-    
-    
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
     background: #FFFFFF;
     border: 8px solid #750550;
     box-sizing: border-box;
   }
   #box3 {
     
+    position:absolute;
     width: 1161px;
     height: auto;
-    left: 140px;
-    
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
     background: #ffffff7c;
     border: 1px solid #E8AFCE;
     box-sizing: border-box;
@@ -190,18 +199,20 @@ border-radius: 5px;
     text-align: center;
     font-size:25px;
    }
-   .footer{
-          text-align: center;
-          font-size: 50px;
-          color: #ffffff;
-          width: 100%;
-          background-color: #4C0027;
-          margin-left: 0;
-          margin-bottom: 0;
-          margin-right: 0;
-          padding: 15px;
-
-   }
+  .footer
+  {
+    position:relative;
+    top: 2400px;
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    width: 100%;
+    background-color: #4C0027;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    padding: 15px;
+  }
    td {
     padding: 15px;
     font-family: 'Montserrat', sans-serif;
